@@ -3,6 +3,16 @@
 # By Josue Arana
 # Python Solution
 
+# -------  Personal Analysis --------- # 
+# Time Complexity: push O(1), pop O(n), peek O(n), empty O(1)
+# Space Complexity: O(2n) ~ O(n)
+
+# -------  Leetcode Analysis --------- # 
+# 17 / 17 test cases passed.
+# Status: Accepted
+# Runtime: 32 ms, faster than 44.49% of Python3 online submissions for Implement Queue using Stacks.
+# Memory Usage: 14.1 MB, less than 5.24% of Python3 online submissions for Implement Queue using Stacks.
+
 class MyQueue:
 
     def __init__(self):
@@ -104,5 +114,4 @@ class MyStack:
         Returns the size of the stack
         """
         return len(self.stack)
-        
-
+       

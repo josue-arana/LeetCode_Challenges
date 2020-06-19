@@ -1,3 +1,7 @@
+# ------ QUEUE IMPLEMENTATION USING ARRAYS -------- #
+# By Josue Arana
+# Python Solution
+
 class MyQueue:
 
     def __init__(self):

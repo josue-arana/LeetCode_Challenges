@@ -1,4 +1,8 @@
-# Implement a Stack using a single Queue
+
+# ------ STACK IMPLEMENTATION USING A SINGLE QUEUE -------- #
+# By Josue Arana
+# # Python Solution
+
 class MyStack:
      
     def __init__(self):
@@ -42,7 +46,6 @@ class MyStack:
         return self.queue.isEmpty()
         
 
-
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
 # obj.push(x)
@@ -50,7 +53,7 @@ class MyStack:
 # param_3 = obj.top()
 # param_4 = obj.empty()
 
-
+### This is an implementation of a Queue using arrays ###
 class MyQueue:
 
     def __init__(self):
